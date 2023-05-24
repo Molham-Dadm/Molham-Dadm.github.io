@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+
+}
+.container {
+  width: 1000px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  background-color: #232323;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 100px;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+}
+ul.nav-menu li {
+  transition: all 0.125s ease-in-out;
+  list-style-type: none;
+  padding: 20px;
+}
+ul.nav-menu li a {
+  color: #fff;
+  text-decoration: none;
+ 
+}
+
+ul.nav-menu li:hover{
+  transition: all 0.125s ease-in-out;
+  transform: scale(1.2);
+
+}
+main {
+  flex-direction: column;
+  min-height: 600px;
+  background-image: url("./img/main-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-items: center;
+  text-align: center;
+  padding-top: 100px;
+}
+main h1 {
+  padding: 20px;
+  margin-top: 50px;
+  font-size: 50px;
+
+  /* Classes start*/
+}
+section.about h2 {
+  padding: 20px 0;
+  text-align: center;
+}
+section.about p {
+  text-align: center;
+}
+section.about p span {
+  padding: 20px 0;
+  display: block;
+  text-align: center;
+}
+section.classes {
+  padding: 20px 0;
+  background-color: #232323;
+}
+.flexi {
+  display: flex;
+}
+section.classes .classes-img {
+  width: 50%;
+  padding: 50px;
+}
+section.classes .classes-text {
+  width: 50%;
+  padding: 20px;
+}
+section.classes .classes-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section.classes .classes-text h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+section.classes .classes-text p {
+  color: #fff;
+}
+
+
+/*Gallery start*/
+
+section.gallery {
+  padding: 50px 0;
+}
+section.gallery .gallery-text {padding-right: 20px;}
+section.gallery .gallery-img {padding-left: 20px;}
+
+/* cobtact start*/
+
+section.contact {
+  background-color: #232323;
+  color: #fff;
+  padding: 50px 0;
+}
+section.contact .contact-map{
+  padding-right: 20px;
+}
+
+section.contact .contact-text{
+  padding-left: 50px;
+}
+section.contact .contact-text a{
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 20px 0;
+
+}
+section.contact .contact-text ul{
+list-style-type: none;
+display: flex ;
+}
+section.contact .contact-text ul li{
+  padding: 20px;
+}
+
+
+section.contact .contact-text ul li a{
+  font-size: 30px;
+  transition: all 0.125s ease-in-out;
+}
+section.contact .contact-text ul li a:hover{
+  transition: all 0.125s ease-in-out;
+  transform: scale(1.2);
+}
